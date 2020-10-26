@@ -1,0 +1,26 @@
+{
+    "name": "vendor-name/project-name",
+    "description": "Ecommerce platform",
+    "version": "0.0.0",
+    "time": "2020-10-25",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Md Masud Rana",
+            "email": "masudpado@gmail.com",
+            "role": "Developer"
+        }
+        
+    ],
+    
+    "require": {
+        "phroute/phroute": "^2.1",
+        "phpmailer/phpmailer": "^6.1"
+    },
+     "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+    
+}
